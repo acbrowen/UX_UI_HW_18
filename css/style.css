@@ -1,54 +1,439 @@
+/* Many fonts! Begin---*/
+
+@font-face {
+    font-family: 'clarika_geometricregular';
+    src: url('fonts/clarikageo-regular-webfont.eot');
+    src: url('fonts/clarikageo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/clarikageo-regular-webfont.woff2') format('woff2'),
+         url('fonts/clarikageo-regular-webfont.woff') format('woff'),
+         url('fonts/clarikageo-regular-webfont.ttf') format('truetype'),
+         url('fonts/clarikageo-regular-webfont.svg#clarika_geometricregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ByNote';
+    src: url('fonts/By-Note.eot'); /* IE9 Compat Modes */
+    src: url('fonts/By-Note.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/By-Note.woff') format('woff'), /* Modern Browsers */
+         url('fonts/By-Note.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'ByNoteSwash';
+    src: url('fonts/Black-Marker-Bold-Italic.otf'); /* IE9 Compat Modes */
+    src: url('fonts/ByNote-Swash.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/ByNote-Swash.woff') format('woff'), /* Modern Browsers */
+         url('fonts/ByNote-Swash.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Black-Marker-Bold';
+    src: url('fonts/Black-Marker-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Black-Marker-Bold-Italic';
+    src: url('fonts/Black-Marker-Bold-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Black-Marker-Italic';
+    src: url('fonts/Black-Marker-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Black-Marker-Regular';
+    src: url('fonts/Black-Marker-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'made_tommy_softthin';
+    src: url('fonts/made_tommy_soft_thin-webfont.eot');
+    src: url('fonts/made_tommy_soft_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_thin-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_thin-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_thin-webfont.svg#made_tommy_softthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'made_tommy_softlight';
+    src: url('fonts/made_tommy_soft_light-webfont.eot');
+    src: url('fonts/made_tommy_soft_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_light-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_light-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_light-webfont.svg#made_tommy_softlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'made_tommy_softregular';
+    src: url('fonts/made_tommy_soft_regular-webfont.eot');
+    src: url('fonts/made_tommy_soft_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_regular-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_regular-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_regular-webfont.svg#made_tommy_softregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'made_tommy_softmedium';
+    src: url('fonts/made_tommy_soft_medium-webfont.eot');
+    src: url('fonts/made_tommy_soft_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_medium-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_medium-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_medium-webfont.svg#made_tommy_softmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'made_tommy_softbold';
+    src: url('fonts/made_tommy_soft_bold-webfont.eot');
+    src: url('fonts/made_tommy_soft_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_bold-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_bold-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_bold-webfont.svg#made_tommy_softbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'made_tommy_softextrabold';
+    src: url('fonts/made_tommy_soft_extrabold-webfont.eot');
+    src: url('fonts/made_tommy_soft_extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_extrabold-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_extrabold-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_extrabold-webfont.svg#made_tommy_softextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'made_tommy_softblack';
+    src: url('fonts/made_tommy_soft_black-webfont.eot');
+    src: url('fonts/made_tommy_soft_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_black-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_black-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_black-webfont.svg#made_tommy_softblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'made_tommy_soft_outlinethin';
+    src: url('fonts/made_tommy_soft_thin_outline-webfont.eot');
+    src: url('fonts/made_tommy_soft_thin_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_thin_outline-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_thin_outline-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_thin_outline-webfont.svg#made_tommy_soft_outlinethin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'made_tommy_soft_outlinelight';
+    src: url('fonts/made_tommy_soft_light_outline-webfont.eot');
+    src: url('fonts/made_tommy_soft_light_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_light_outline-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_light_outline-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_light_outline-webfont.svg#made_tommy_soft_outlinelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'made_tommy_soft_outlineRg';
+    src: url('fonts/made_tommy_soft_regular_outline-webfont.eot');
+    src: url('fonts/made_tommy_soft_regular_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_regular_outline-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_regular_outline-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_regular_outline-webfont.svg#made_tommy_soft_outlineRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'made_tommy_soft_outlinemedium';
+    src: url('fonts/made_tommy_soft_medium_outline-webfont.eot');
+    src: url('fonts/made_tommy_soft_medium_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_medium_outline-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_medium_outline-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_medium_outline-webfont.svg#made_tommy_soft_outlinemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'made_tommy_soft_outlinebold';
+    src: url('fonts/made_tommy_soft_bold_outline-webfont.eot');
+    src: url('fonts/made_tommy_soft_bold_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_bold_outline-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_bold_outline-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_bold_outline-webfont.svg#made_tommy_soft_outlinebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'made_tommy_soft_outlineXBd';
+    src: url('fonts/made_tommy_soft_extrabold_outline-webfont.eot');
+    src: url('fonts/made_tommy_soft_extrabold_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_extrabold_outline-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_extrabold_outline-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_extrabold_outline-webfont.svg#made_tommy_soft_outlineXBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'made_tommy_soft_outlineblack';
+    src: url('fonts/made_tommy_soft_black_outline-webfont.eot');
+    src: url('fonts/made_tommy_soft_black_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/made_tommy_soft_black_outline-webfont.woff2') format('woff2'),
+         url('fonts/made_tommy_soft_black_outline-webfont.woff') format('woff'),
+         url('fonts/made_tommy_soft_black_outline-webfont.svg#made_tommy_soft_outlineblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* --- End fonts*/
+
+
+
+/*GENERAL STYLE ACROSS SECTIONS*/
+
+p { 
+    font-family: 'clarika_geometricregular';
+    color: #4E4E4E;
+}
+
+h1{
+    font-family: 'made_tommy_softbold';
+    padding: 50px;
+}
+
+h3{
+    font-family: 'clarika_geometricregular';
+    font-weight: bold;
+    /* are you sure you want this aligned center everywhere, or just down in Skills section?*/
+    text-align: center;
+}
+
+h4{
+    font-family: 'made_tommy_softbold';
+    font-weight: bold;
+}
+
+h5{
+    color: #0C777B;
+    font-family: 'Black-Marker-Regular';
+    font-size: 20px; 
+}
+
+.marker{
+    font-family: 'ByNote';
+    color: #0C777B;
+}
+
+i {
+    font-size: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-family: 'clarika_geometricregular';
+    color: #4E4E4E;
+}
+
+/* --- end GENERAL STYLE*/
+
+
+
+/* ---Section 1 || ABOUT ME --- Begin....*/
+
+/* Navigation Header */
+
 .inline-block{
     display: inline-block;
     vertical-align: top;
 }
 
-.logo{
+#logo{
     width: 23%;
     padding: 1%;
     text-align: center;
 }
 
-
+.navigation{
+    /*opacity: 0.8;*/
+    /*font-family:Arial, Helvetica, sans-serif;*/
+}
 
 nav{
     width: 73%;
     padding: 1;
+    font-family: 'clarika_geometricregular';
 }
 
-ul{
+.navLI li{
+    margin-left: 40px;
+}
+
+.navLI ul{
     width: 50%;
     margin-left: auto;
 }
 
-section .heroImg{
+.heroImg{
     height: 600px;
     padding: 25px;
+    /*max-height: 400px;*/
+    background-image: url("../images/Background-Sider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .content{
     width: 500px;
     margin: 0 auto;
 }
-
+/* Navigation Footer */
 footer{
     background-color: #373738;
 }
-
 .footerUL{
     display: inline-block;
     vertical-align: top;
     padding: 0 auto;
 }
-
 .footerLI{
     padding: 10px 20px;
 }
-
+/*left Side About Me*/
 .logoImg{
     max-height: 50px;
 }
-
-.meImg{
-    max-width: 500px;
+#meImg{
+    max-width: 400px;
+    border-radius: 50px;
 }
+#aboutMeImage{
+    margin-top: 20px;
+    margin-right: 200px;
+    /*QUESTION: how to get the text in this div to align to the right, or ideally rotate it?
+    justify-self: flex-end;*/
+}
+/*right side About Me*/
+#aboutMeText{
+    min-width: 600px;
+    margin-left: 100px;
+}
+
+/* --- end ABOUT ME*/
+
+
+
+/* ---Section 2 || SKILLS --- Begin....*/
+
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+}
+.flexChild{
+    width: 30%;
+    height: 400px;
+    border-color: black;
+}
+
+.skillsSubHeading{
+    font-family: 'made_tommy_softregular';
+}
+/* moved to General Style section:
+h1{
+    font-family: 'made_tommy_softbold';
+}
+
+h3{
+    font-family: 'clarika_geometricregular';
+    font-weight: bold;
+}*/
+
+/*.imageFlex{
+    height: 300px;
+}*/
+#skills1{
+    background-image: url("../images/Skills1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#skills2{
+    background-image: url("../images/Skills2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#skills3{
+    background-image: url("../images/Skills3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/*moved to General Style, but consider whether you need this here for specific elements only:
+h3{
+    text-align: center;
+}
+i {
+    font-size: 50px;
+}*/
+
+/* HW 18 WORK - GRID*/
+.workGrid {
+    display: grid;
+    grid-template-areas: 'caseStudy1 caseStudy2';
+}
+.caseStudy1{
+    grid-area: 'caseStudy1';
+}
+.caseStudy2{
+    grid-area: 'caseStudy2';
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+

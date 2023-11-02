@@ -1,45 +1,186 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/2bc4520897.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
     <head>
         <title></title>
     </head>
     <body>
     
         <header class="navigation">
-            <div class="inline-block logo">
+            <div class="inline-block" id="logo">
                 <img class="logoImg" src="images/ACB | Logo.png">
             </div>
-            <nav class="inline-block">
+            <nav class="inline-block navLI">
                 <ul>
-                    <li class="inline-block">about</li>
-                    <li class="inline-block">skills</li>
-                    <li class="inline-block">work</li>
-                    <li class="inline-block">contact</li>
+                    <li class="inline-block">| about</li>
+                    <li class="inline-block">| skills</li>
+                    <li class="inline-block">| work</li>
+                    <li class="inline-block">| contact</li>
                 </ul>
             </nav>
         </header>
 
         <section class="heroImg">
-            <div class="content">
-                <img class="meImg" src="images/ACB | Img | About Me.png">
-
-                <!--P section needs refinement later - will develop headings-->
-                <p>I've trained in methods of UX research, data analysis, UX/UI design, front-end web development, more extensive coding, and project management, so I’m adept at wearing many hats and collaborating intuitively with all professionals on my team. As a published author, award-winning public speaker, and highly rated lecturer of 5 years at Connecticut and Dartmouth College, I’m skilled at clear communication of complex ideas to all types, with the proven ability to carry massive projects to successful fruition.</p>
-
+            <div class="content flexContainer">
+                <div id="aboutMeImage">
+                <img id="meImg" src="images/ACB | Img | About Me.png">
+                <p class="marker">Hi, I'm Annie Brown!</p>
                 <button>Download Resume</button>
+                </div>
+                <!--P section needs refinement later - will develop headings-->
+                <div id="aboutMeText">
+                <p>Making connections is what I do!</p>
+                <h5>FEELINGS to BEHAVIOR</h5>
+                <p>As a PhD and researcher of over a decade in Psychological & Brain Sciences, what sets me apart is my ability to get inside your head, uncovering what you feel, and finding what you need.</p>
+                <h5>OBSERVATIONS to INSIGHTS</h5>
+                <p>I can take a tangled mess of offhand remarks from any pool of users, and completely unsnarl that ball into clear insights on what the user really needs. I’m a wizard at transforming large volumes of user interview output into affinity diagrams and empathy maps, and I have 10+ years of experience in executing and teaching study design and advanced data analysis.</p>
+                <h5>RESEARCH to CREATION</h5>
+                <p>I’ve trained in methods of UX research, data analysis, UX/UI design, front-end web development, more extensive coding, and project management, so I’m adept at wearing many hats and collaborating intuitively with all professionals on my team. As a published author, award-winning public speaker, and highly rated lecturer of 5 years at Connecticut and Dartmouth College, I’m skilled at clear communication of complex ideas to all types, with the proven ability to carry massive projects to successful fruition.</p>
+                </div>
             </div>
         </section>
 
-        <footer>
-                <ul class="footerUL">
-                    <li class="inline-block footerLI">about</li>
-                    <li class="inline-block footerLI">skills</li>
-                    <li class="inline-block footerLI">work</li>
-                    <li class="inline-block footerLI">contact</li>
-                </ul>
-        </footer>
+ <!--  My UX Skills section coded using CSS flex -->
+        <section class="mySkills">
+            <h1>My UX Skills</h1>
+            <!--  GRADER NOTE: I plan to turn this absurdly long skills list into an accordion style with the next assignment!-->
+            <div class="flexContainer">
+                <div class="flexChild" id="skills1">
+                    <!-- <img class="imageFlex skills1 src="images/Skills 1 | UX:UI.png"> -->
+                    <h3>UX / UI skills</h3>
+                    <!-- <p>Skill skill skill 1</p> -->
+                    <ul id="skillsULUXUI">
+                        <h4 class="skillsSubHeading">UX</h4>
+                        <li class="skillsList">user interviews</li>
+                        <li class="skillsList">A/B testing</li>
+                        <li class="skillsList">card sorting</li>
+                        <li class="skillsList">competitor analysis</li>
+                        <li class="skillsList">task analysis</li>
+                        <li class="skillsList">heuristic analysis</li>
+                        <li class="skillsList">affinity diagrams</li>
+                        <li class="skillsList">empathy maps</li>
+                        <li class="skillsList">journey maps</li>
+                        <li class="skillsList">user personas</li>
+                        <li class="skillsList">storyboards</li>
+                        <li class="skillsList">usability testing</li>
+                        <li class="skillsList">eyetracking</li>
+                        <li class="skillsList">experimental design</li>
+                        <li class="skillsList">data analysis</li>
+                        <li class="skillsList">data visualization</li>
+                        <h4 class="skillsSubHeading">UI</h4>
+                        <li class="skillsList">prototyping</li>
+                        <li class="skillsList">wireframing</li>
+                        <li class="skillsList">user flows</li>
+                        <li class="skillsList">mockups</li>
+                        <li class="skillsList">copy writing</li>
+                        <li class="skillsList">sitemapping</li>
+                        <li class="skillsList">information architecture</li>
+                        <li class="skillsList">responsive web design</li>
+                        <li class="skillsList">scenario design</li>
+                    </ul>
+                </div>
+                <div class="flexChild" id="skills2">
+                    <!--<img class="imageFlex skills2" src="images/Skills 2 | soft skills.png">-->
+                    <h3>soft skills</h3>
+                    <!-- <p>Skill skill skill 2</p> -->
+                    <ul id="skillsULSoftSkills">
+                        <h4 class="skillsSubHeading">Interpersonal</h4>
+                        <li class="skillsList">empathy</li>
+                        <li class="skillsList">collaboration</li>
+                        <li class="skillsList">project management</li>
+                        <li class="skillsList">time management</li>
+                        <h4 class="skillsSubHeading">Cognitive</h4>
+                        <li class="skillsList">critical thinking</li>
+                        <li class="skillsList">problem solving</li>
+                        <li class="skillsList">curiosity</li>
+                        <li class="skillsList">expertise in psychology</li>
+                        <h4 class="skillsSubHeading">Communication</h4>
+                        <li class="skillsList">public speaking & presenting</li>
+                        <li class="skillsList">writing, editing, & publishing</li>
+                        <li class="skillsList">mentorship & teaching</li>
+                    </ul>
+                </div>
+                <div class="flexChild" id="skills3">
+                    <!--<img class="imageFlex skills3" src="images/Skills 3 | Software:Tech.png">-->
+                    <h3>software / tech</h3>
+                    <!-- <p>Skill skill skill 3</p> -->
+                    <ul id="skillsULSoftwareTech">
+                        <h4 class="skillsSubHeading">Design</h4>
+                        <li class="skillsList">Figma</li>
+                        <li class="skillsList">Miro</li>
+                        <li class="skillsList">Visme</li>
+                        <h4 class="skillsSubHeading">Web Development</h4>
+                        <li class="skillsList">HTML</li>
+                        <li class="skillsList">CSS</li>
+                        <li class="skillsList">JavaScript</li>
+                        <li class="skillsList">GitHub</li>
+                        <h4 class="skillsSubHeading">Data Analysis & Programming</h4>
+                        <li class="skillsList">SPSS</li>
+                        <li class="skillsList">R</li>
+                        <li class="skillsList">Java</li>
+                        <li class="skillsList">MatLab</li>
+                        <h4 class="skillsSubHeading">Specialized Analytics</h4>
+                        <li class="skillsList">eyetracking [heatmaps, path analysis, pupillometry]</li>
+                        <li class="skillsList">facial emotion recognition</li>
+                        <li class="skillsList">psychophysiological analyses</li>
+                        <h4 class="skillsSubHeading">Survey Design</h4>
+                        <li class="skillsList">Qualtrics</li>
+                        <li class="skillsList">SurveyMonkey</li>
+                        <li class="skillsList">Google Forms</li>
+                        <h4 class="skillsSubHeading">Study Recruitment</h4>
+                        <li class="skillsList">Mechanical Turk</li>
+                        <li class="skillsList">Experimetrix</li>
+                        <li class="skillsList">SONA</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="myWork">
+            <h1>My Work</h1>
+            <div class="workGrid">
+                <div class="caseStudy1">
+                    <img>
+                    <div>
+                        <h4></h4>
+                        <p></p>
+                        <button>LGBTOutdoors</button>
+                    </div>
+                </div>
+                <div class="caseStudy2">
+                    <div>
+                        <h4></h4>
+                        <p></p>
+                        <button>SoulMeets</button>
+                    </div>
+                </div>
+            </div>
+            <h3>view all projects</h3>
+
+        </section>
+
+
 
 
     </body>
-</html>
+
+
+    <i class="fa-thin fa-wand-magic-sparkles" style="color: #0c777b;"></i>
+    <i class="fa-thin fa-wand-magic-sparkles fa-beat-fade" style="color: #43cdcf;"></i>
+    <i class="fa-thin fa-chart-scatter" style="color: #0c777b;"></i>
+    <i class="fa-thin fa-people-group" style="color: #0c777b;"></i>
+    <i class="fa-thin fa-arrows-to-eye" style="color: #0c777b;"></i>
+  
+
+    <footer>
+        <ul class="footerUL">
+            <li class="inline-block footerLI">about</li>
+            <li class="inline-block footerLI">skills</li>
+            <li class="inline-block footerLI">work</li>
+            <li class="inline-block footerLI">contact</li>
+        </ul>
+    </footer>
+
+    </html>
