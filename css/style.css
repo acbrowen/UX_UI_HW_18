@@ -1,5 +1,4 @@
 /* Many fonts! Begin---*/
-
 @font-face {
     font-family: 'clarika_geometricregular';
     src: url('fonts/clarikageo-regular-webfont.eot');
@@ -11,7 +10,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'ByNote';
     src: url('fonts/By-Note.eot'); /* IE9 Compat Modes */
@@ -22,7 +20,6 @@
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
-
 @font-face {
     font-family: 'ByNoteSwash';
     src: url('fonts/Black-Marker-Bold-Italic.otf'); /* IE9 Compat Modes */
@@ -33,35 +30,30 @@
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
-
 @font-face {
     font-family: 'Black-Marker-Bold';
     src: url('fonts/Black-Marker-Bold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Black-Marker-Bold-Italic';
     src: url('fonts/Black-Marker-Bold-Italic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Black-Marker-Italic';
     src: url('fonts/Black-Marker-Italic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Black-Marker-Regular';
     src: url('fonts/Black-Marker-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'made_tommy_softthin';
     src: url('fonts/made_tommy_soft_thin-webfont.eot');
@@ -73,7 +65,6 @@
     font-style: normal;
 
 }
-
 @font-face {
     font-family: 'made_tommy_softlight';
     src: url('fonts/made_tommy_soft_light-webfont.eot');
@@ -84,7 +75,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'made_tommy_softregular';
     src: url('fonts/made_tommy_soft_regular-webfont.eot');
@@ -95,7 +85,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'made_tommy_softmedium';
     src: url('fonts/made_tommy_soft_medium-webfont.eot');
@@ -106,7 +95,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'made_tommy_softbold';
     src: url('fonts/made_tommy_soft_bold-webfont.eot');
@@ -117,7 +105,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'made_tommy_softextrabold';
     src: url('fonts/made_tommy_soft_extrabold-webfont.eot');
@@ -129,7 +116,6 @@
     font-style: normal;
 
 }
-
 @font-face {
     font-family: 'made_tommy_softblack';
     src: url('fonts/made_tommy_soft_black-webfont.eot');
@@ -140,7 +126,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'made_tommy_soft_outlinethin';
     src: url('fonts/made_tommy_soft_thin_outline-webfont.eot');
@@ -152,7 +137,6 @@
     font-style: normal;
 
 }
-
 @font-face {
     font-family: 'made_tommy_soft_outlinelight';
     src: url('fonts/made_tommy_soft_light_outline-webfont.eot');
@@ -163,7 +147,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'made_tommy_soft_outlineRg';
     src: url('fonts/made_tommy_soft_regular_outline-webfont.eot');
@@ -174,7 +157,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'made_tommy_soft_outlinemedium';
     src: url('fonts/made_tommy_soft_medium_outline-webfont.eot');
@@ -186,7 +168,6 @@
     font-style: normal;
 
 }
-
 @font-face {
     font-family: 'made_tommy_soft_outlinebold';
     src: url('fonts/made_tommy_soft_bold_outline-webfont.eot');
@@ -197,7 +178,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'made_tommy_soft_outlineXBd';
     src: url('fonts/made_tommy_soft_extrabold_outline-webfont.eot');
@@ -208,7 +188,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'made_tommy_soft_outlineblack';
     src: url('fonts/made_tommy_soft_black_outline-webfont.eot');
@@ -230,43 +209,45 @@ p {
     color: #4E4E4E;
     font-size: 14px;
 }
-
 h1{
     font-family: 'made_tommy_softbold';
-    padding: 50px;
+    font-size: 40px;
+    padding: 20px;
 }
-
-h3{
-    font-family: 'clarika_geometricregular';
-    font-weight: bold;
+h2{
+    font-family: 'made_tommy_softbold';
+    font-size: 30px;
     /* are you sure you want this aligned center everywhere, or just down in Skills section?*/
     text-align: center;
 }
-
-h4{
+h3{
     font-family: 'made_tommy_softbold';
     font-weight: bold;
+    font-size: 20px;
 }
-
+h4{
+    font-family: 'clarika_geometricregular';
+    font-weight: bold;
+}
 h5{
+    font-family: 'clarika_geometricregular';
+    font-size: 20px;
+}
+h7{
     color: #0C777B;
     font-family: 'Black-Marker-Regular';
     font-size: 20px;
 }
-
 .marker{
     font-family: 'ByNote';
     color: #0C777B;
 }
-
 i {
     font-size: 50px;
 }
-
 ul{
     list-style-type: none;
 }
-
 li{
     font-family: 'clarika_geometricregular';
     color: #4E4E4E;
@@ -310,7 +291,6 @@ nav{
     width: 50%;
     margin-left: auto;
 }
-
 
 .heroImg{
     position: relative;
@@ -387,7 +367,6 @@ footer{
 
 .mySkills{
     height: 1000px;
-    background-color: aqua;
 }
 
 .flexContainer{
@@ -468,38 +447,96 @@ i {
 }
 .workGrid {
     display: grid;
-    grid-template-columns: 31% 31% 31%;
-    grid-template-rows: 1vh;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100px 100px 100px 100px 100px;
     grid-template-areas: 
-    "caseStudy1 caseStudy2 caseStudy3";
-}
-#caseStudy1{
-    grid-area: 'caseStudy1';
-    background-color: #ADADAD;
+    "workHeading1 workHeading2 workHeading3"
+    "workSubHeading1 workSubHeading2 workSubHeading3"
+    "workImg1 workImg2 workImg3"
+    "workText1 workText2 workText3"
+    "workButton1 workButton2 workButton3"
+    ;
     padding: 2%;
-}
-#caseStudy2{
-    grid-area: 'caseStudy2';
-    background-color: #EAFE00;
-    padding: 2%;
-}
-#caseStudy3{
-    grid-area: 'caseStudy3';
-    background-color: #0C777B;
-    padding: 2%;
+    justify-content: center;
 }
 .workImg{
     max-width: 75%;
 }
 .workText{
     max-width: 75%;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#caseStudy1{
+    background-color: #ADADAD;
+    height: 500px;
+    padding: 5%;
+}
+
+#caseStudy2{
+    background-color: #EAFE00;
+    height: 500px;
+    padding: 5%;
+}
+#caseStudy3{
+    grid-area: 'caseStudy3';
+    background-color: #0C777B;
+    height: 500px;
+    padding: 5%;
 }
 
 #projectButton{
-
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
 }
 
-
+#workHeading1{
+    grid-area: 'workHeading1';
+}
+#workHeading2{
+    grid-area: 'workHeading2';
+}
+#workHeading3{
+    grid-area: 'workHeading3';
+}
+#workSubHeading1{
+    grid-area: 'workSubHeading1';
+}
+#workSubHeading2{
+    grid-area: 'workSubHeading2';
+}
+#workSubHeading3{
+    grid-area: 'workSubHeading3';
+}
+#workImg1{
+    grid-area: 'workImg1';
+}
+#workImg2{
+    grid-area: 'workImg2';
+}
+#workImg3{
+    grid-area: 'workImg3';
+}
+#workText1{
+    grid-area: 'workText1';
+}
+#workText2{
+    grid-area: 'workText2';
+}
+#workText3{
+    grid-area: 'workText3';
+}
+#workButton1{
+    grid-area: 'workButton1';
+}
+#workButton2{
+    grid-area: 'workButton2';
+}
+#workButton3{
+    grid-area: 'workButton3';
+}
 
 @media only screen and (max-width: 600px) {
     
@@ -508,6 +545,30 @@ i {
         }
         .flexChild{
             width: 100%;
+        }
+        .workGrid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px;
+            grid-template-areas: 
+            "workHeading1"
+            "workSubHeading1"
+            "workImg1"
+            "workText1"
+            "workButton1"
+            "workHeading2"
+            "workSubHeading2"
+            "workImg2"
+            "workText2"
+            "workButton2"
+            "workHeading3"
+            "workSubHeading3"
+            "workImg3"
+            "workText3"
+            "workButton3"
+            ;
+            padding: 2%;
+            justify-content: center;
         }
     
   }
