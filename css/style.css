@@ -228,6 +228,7 @@
 p { 
     font-family: 'clarika_geometricregular';
     color: #4E4E4E;
+    font-size: 14px;
 }
 
 h1{
@@ -250,7 +251,7 @@ h4{
 h5{
     color: #0C777B;
     font-family: 'Black-Marker-Regular';
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 .marker{
@@ -297,7 +298,7 @@ li{
 
 nav{
     width: 73%;
-    padding: 1;
+    padding: 10px;
     font-family: 'clarika_geometricregular';
 }
 
@@ -310,20 +311,41 @@ nav{
     margin-left: auto;
 }
 
+
 .heroImg{
-    height: 600px;
-    padding: 25px;
-    /*max-height: 400px;*/
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*FIX : eliminate the next 3 lines when you're ready to work out the opacity of overlay issue. right now, you can adjust the background opacity with these lines gone + next pseudochild section back in, but content on top goes transparent too.*/
+    /*QUESTION : how to fix transparency issue described above*/
     background-image: url("../images/Background-Sider.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
 }
+
+/*.heroImg::before{
+    content: "";
+    background-image: url("../images/Background-Sider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.10;
+}*/
+
+
 
 .content{
     width: 500px;
     margin: 0 auto;
 }
+
 /* Navigation Footer */
 footer{
     background-color: #373738;
@@ -338,10 +360,11 @@ footer{
 }
 /*left Side About Me*/
 .logoImg{
-    max-height: 50px;
+    max-height: 60px;
 }
 #meImg{
     max-width: 400px;
+    max-height: 500px;
     border-radius: 50px;
 }
 #aboutMeImage{
@@ -362,6 +385,10 @@ footer{
 
 /* ---Section 2 || SKILLS --- Begin....*/
 
+.mySkills{
+    height: 1000px;
+    background-color: aqua;
+}
 
 .flexContainer{
     display: flex;
@@ -370,14 +397,14 @@ footer{
 }
 .flexChild{
     width: 30%;
-    height: 400px;
+    height: 450px;
     border-color: black;
 }
 
 .skillsSubHeading{
     font-family: 'made_tommy_softregular';
 }
-/* moved to General Style section:
+/* NOTE: moved to General Style section:
 h1{
     font-family: 'made_tommy_softbold';
 }
@@ -408,7 +435,7 @@ h3{
     background-size: cover;
     background-position: center center;
 }
-/*moved to General Style, but consider whether you need this here for specific elements only:
+/*NOTE: moved to General Style, but consider whether you need this here for specific elements only:
 h3{
     text-align: center;
 }
@@ -417,23 +444,71 @@ i {
 }*/
 
 /* HW 18 WORK - GRID*/
+
+/*OLD simplified version
 .workGrid {
     display: grid;
-    grid-template-areas: 'caseStudy1 caseStudy2';
+    grid-template-areas: "caseStudy1 caseStudy2 caseStudy3";
 }
-.caseStudy1{
+#caseStudy1{
     grid-area: 'caseStudy1';
 }
-.caseStudy2{
+#caseStudy2{
     grid-area: 'caseStudy2';
 }
+#caseStudy3{
+    grid-area: 'caseStudy3';
+}*/
 
+.myWork{
+    min-height: 800px;
+    background-image: url("../images/Background-Sider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.workGrid {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: 1vh;
+    grid-template-areas: 
+    "caseStudy1 caseStudy2 caseStudy3";
+}
+#caseStudy1{
+    grid-area: 'caseStudy1';
+    background-color: #ADADAD;
+    padding: 2%;
+}
+#caseStudy2{
+    grid-area: 'caseStudy2';
+    background-color: #EAFE00;
+    padding: 2%;
+}
+#caseStudy3{
+    grid-area: 'caseStudy3';
+    background-color: #0C777B;
+    padding: 2%;
+}
+.workImg{
+    max-width: 75%;
+}
+.workText{
+    max-width: 75%;
+}
+
+#projectButton{
+
+}
 
 
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+    
+        .flexContainer{
+            flex-direction: column;   
+        }
+        .flexChild{
+            width: 100%;
+        }
+    
   }
 
